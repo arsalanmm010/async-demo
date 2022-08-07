@@ -4,21 +4,21 @@ function prepareFood(callback){
     setTimeout(()=>{
         console.log("Prepare Food");
         callback("Food is Ready");
-    },10);
+    },110);
 }
 
 function prepareFrenchToast(callback){
     setTimeout(()=>{
         console.log("Prepare Frensh Toast");
         callback("French Toast is Ready");
-    },20);
+    },120);
 }
 
 function prepareCoffee(callback){
     setTimeout(()=>{
         console.log("Prepare Coffee");
         callback("Coffee is Ready");
-    },30);
+    },130);
 }
 
 prepareFood(function (value){
